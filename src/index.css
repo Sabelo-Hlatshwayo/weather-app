@@ -8,6 +8,7 @@ body {
     font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     /* background-color: #fff; */
     background-color: #e7edfa;
+    /* background-image: url(/public/icons/circle.svg); */
 }
 
 .container {
@@ -19,7 +20,7 @@ body {
 .form-dark {
     /* border: solid green; */
     /* border: solid blue; */
-    width: 40%;
+    width: 45%;
 }
 
 form {
@@ -80,9 +81,7 @@ button:hover {
 
 input:focus {
     outline: none;
-    /* outline: 5px solid #ced3df; */
     box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
-    /* border-color: #0a95c0; */
 }
 
 .header {
@@ -91,4 +90,30 @@ input:focus {
     align-items: center;
     justify-content: space-between;
     padding: 24px;
+}
+
+.toggle {
+    height: 35px;
+    width: 65px;
+    border-radius: 100px;
+    background-color: #f0f7f8;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 1px solid #0a95c0;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    transition: all 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.toggle:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+}
+
+.toggle-ball {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: #b4b9ba;
 }

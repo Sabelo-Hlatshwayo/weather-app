@@ -1,6 +1,7 @@
 import React from "react";
 import BtnSearchByGeoLocation from "./BtnSearchByGeoLocation";
 import BtnSearchByName from "./BtnSearchByName";
+import ThemeToggler from "./ThemeToggler";
 
 function Header() {
     return (
@@ -17,6 +18,7 @@ function Header() {
                     <BtnSearchByName />
                 </form>
             </div>
+            <ThemeToggler />
         </header>
     );
 }
