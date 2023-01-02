@@ -96,7 +96,7 @@ input:focus {
     height: 35px;
     width: 65px;
     border-radius: 100px;
-    background-color: #f0f7f8;
+    background-color: red;
     padding: 5px;
     display: flex;
     align-items: center;
@@ -105,10 +105,7 @@ input:focus {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
     transition: all 0.1s ease-in-out;
     cursor: pointer;
-}
-
-.toggle:focus {
-    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);
+    position: relative;
 }
 
 .toggle-ball {
@@ -116,4 +113,6 @@ input:focus {
     width: 25px;
     border-radius: 50%;
     background-color: #b4b9ba;
+    transition: all 0.3s ease-in-out;
+    position: absolute;
 }

@@ -1,9 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import BtnSearchByGeoLocation from "./BtnSearchByGeoLocation";
 import BtnSearchByName from "./BtnSearchByName";
 import ThemeToggler from "./ThemeToggler";
 
 function Header() {
+    const [darkTheme, setDarkTheme] = useState(false);
+    const toggleTheme = () => setDarkTheme((prevState) => !prevState);
+
+    console.log(darkTheme);
+
     return (
         <header className="header">
             <h1 className="capitalize text-3xl font-bold">the weather app</h1>
@@ -18,7 +23,10 @@ function Header() {
                     <BtnSearchByName />
                 </form>
             </div>
-            <ThemeToggler />
+            <ThemeToggler
+                darkTheme={darkTheme}
+                toggleTheme={toggleTheme}
+            />
         </header>
     );
 }
