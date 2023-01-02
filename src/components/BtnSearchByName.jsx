@@ -13,17 +13,17 @@ function BtnSearchByName() {
         };
     };
 
-    function handleHoverEnter() {
+    const handleHoverEnter = () => {
         setOnHover((prevState) => !prevState);
         thisButton.current.style.backgroundColor = "#0a95c0";
-    }
+    };
 
-    function handleHoverExit() {
+    const handleHoverExit = () => {
         setOnHover((prevState) => !prevState);
         theme === "dark"
             ? (thisButton.current.style.backgroundColor = "#2e3540")
             : (thisButton.current.style.backgroundColor = "#f0f7f8");
-    }
+    };
 
     return (
         <button
