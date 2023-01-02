@@ -51,6 +51,10 @@ button:hover .search-icon {
     /* fill: red; */
 }
 
+h1 {
+    transition: all 0.3s ease-in-out;
+}
+
 .button-1,
 .button-2 {
     border: none;

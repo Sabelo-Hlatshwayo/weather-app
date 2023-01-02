@@ -1,4 +1,5 @@
 import React, { useContext, useState } from "react";
+import Title from "./Title";
 import BtnSearchByGeoLocation from "./BtnSearchByGeoLocation";
 import BtnSearchByName from "./BtnSearchByName";
 import ThemeToggler from "./ThemeToggler";
@@ -6,8 +7,7 @@ import ThemeToggler from "./ThemeToggler";
 function Header() {
     return (
         <header className="header">
-            <h1 className="capitalize text-3xl font-bold">the weather app</h1>
-
+            <Title />
             <div className="form-dark">
                 <form>
                     <BtnSearchByGeoLocation />
