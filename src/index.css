@@ -96,7 +96,6 @@ input:focus {
     height: 35px;
     width: 65px;
     border-radius: 100px;
-    background-color: red;
     padding: 5px;
     display: flex;
     align-items: center;

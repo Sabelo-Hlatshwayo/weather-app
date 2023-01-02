@@ -1,10 +1,13 @@
 import React from "react";
 import Header from "./components/Header";
+import ThemeProvider from "./contexts/ThemeContext";
 
 function App() {
     return (
         <div className="container">
-            <Header />
+            <ThemeProvider>
+                <Header />
+            </ThemeProvider>
         </div>
     );
 }
