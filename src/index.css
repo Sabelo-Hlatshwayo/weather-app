@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    border: solid red;
+    /* border: solid red; */
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -39,11 +39,21 @@ input {
     width: 100%;
     border: 1px solid #0a95c0;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
+    align-self: stretch;
     transition: all 0.3s ease-in-out;
+}
+
+button:hover .search-icon {
+    /* fill: #fff; */
+    /* border: solid red; */
+    /* color: red; */
+    /* fill: red; */
 }
 
 .button-1,
 .button-2 {
+    border: none;
+    display: block;
     background-color: #f0f7f8;
     /* border: solid red; */
     padding: 12px 22px;
@@ -51,7 +61,11 @@ input {
     cursor: pointer;
     border: 1px solid #0a95c0;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
-    transition: all 0.3s ease-in-out;
+    transition: all 0.1s ease-in-out;
+}
+
+button:hover {
+    background-color: #0a95c0;
 }
 
 .button-1 {
@@ -72,7 +86,7 @@ input:focus {
 }
 
 .header {
-    border: solid blue;
+    /* border: solid blue; */
     display: flex;
     align-items: center;
     justify-content: space-between;

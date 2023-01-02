@@ -1,4 +1,6 @@
 import React from "react";
+import TbLocationFilled from "../icons/TbLocationFilled";
+import FaSearchLocation from "../icons/FaSearchLocation";
 
 function Header() {
     return (
@@ -7,12 +9,16 @@ function Header() {
 
             <div className="form-dark">
                 <form>
-                    <button className="button-1"></button>
+                    <button className="button-1">
+                        <TbLocationFilled />
+                    </button>
                     <input
                         type="text"
                         placeholder="Search City..."
                     />
-                    <button className="button-2"></button>
+                    <button className="button-2">
+                        <FaSearchLocation />
+                    </button>
                 </form>
             </div>
         </header>
