@@ -1,6 +1,6 @@
 import React from "react";
-import TbLocationFilled from "../icons/TbLocationFilled";
-import FaSearchLocation from "../icons/FaSearchLocation";
+import BtnSearchByGeoLocation from "./BtnSearchByGeoLocation";
+import BtnSearchByName from "./BtnSearchByName";
 
 function Header() {
     return (
@@ -9,16 +9,12 @@ function Header() {
 
             <div className="form-dark">
                 <form>
-                    <button className="button-1">
-                        <TbLocationFilled />
-                    </button>
+                    <BtnSearchByGeoLocation />
                     <input
                         type="text"
                         placeholder="Search City..."
                     />
-                    <button className="button-2">
-                        <FaSearchLocation />
-                    </button>
+                    <BtnSearchByName />
                 </form>
             </div>
         </header>
