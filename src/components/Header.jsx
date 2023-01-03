@@ -6,7 +6,7 @@ import ThemeToggler from "./ThemeToggler";
 
 function Header() {
     return (
-        <header className="header">
+        <header className="flex items-center justify-between p-6 mb-4">
             <Title />
             <div className="form-dark">
                 <form>

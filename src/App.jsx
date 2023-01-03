@@ -16,9 +16,11 @@ function App() {
             className="overall-container"
             style={themeStyle(theme)}
         >
-            <div className="max-w-[1140px] my-0 mx-auto">
+            <div className="container max-w-[1140px] my-0 mx-auto">
                 <Header />
             </div>
+
+            <div className="dashboard"></div>
         </div>
     );
 }
