@@ -16,7 +16,7 @@ function App() {
             className="overall-container"
             style={themeStyle(theme)}
         >
-            <div className="container">
+            <div className="max-w-[1140px] my-0 mx-auto">
                 <Header />
             </div>
         </div>
