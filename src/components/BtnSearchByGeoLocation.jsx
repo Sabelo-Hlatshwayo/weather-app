@@ -27,7 +27,7 @@ function BtnSearchByGeoLocation() {
 
     return (
         <button
-            className="button-1"
+            className="block py-[12px] px-[22px] self-stretch cursor-pointer border-[1px] border-solid border-[#0a95c0] shadow-[0_2px_5px_0_rgba(0,0,0,0.15)] transition-all rounded-l-[100px]"
             onMouseEnter={() => handleHoverEnter()}
             onMouseLeave={() => handleHoverExit()}
             style={themeStyle(theme)}
