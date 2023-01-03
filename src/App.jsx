@@ -1,15 +1,28 @@
 import React from "react";
 import Header from "./components/Header";
-import ThemeProvider from "./contexts/ThemeContext";
+import { useTheme } from "./contexts/ThemeContext";
 
 function App() {
+    const { theme } = useTheme();
+
+    const themeStyle = (theme) => {
+        return {
+            backgroundColor: theme === "dark" ? "#242226" : "#e7edfa",
+        };
+    };
+
     return (
-        <div className="container">
-            <ThemeProvider>
+        <div
+            className="overall-container"
+            style={themeStyle(theme)}
+        >
+            <div className="container">
                 <Header />
-            </ThemeProvider>
+            </div>
         </div>
     );
 }
+
+<Header />;
 
 export default App;

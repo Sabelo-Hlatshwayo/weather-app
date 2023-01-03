@@ -7,7 +7,9 @@
 body {
     font-family: "Lato", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     /* background-color: #fff; */
-    background-color: #e7edfa;
+    /* background-color: #e7edfa;
+    background-color: #242226; */
+    /* transition: all 0.3 ease-in-out; */
     /* background-image: url(/public/icons/circle.svg); */
 }
 
@@ -116,4 +118,15 @@ input:focus {
     background-color: #b4b9ba;
     transition: all 0.3s ease-in-out;
     position: absolute;
+}
+
+.container {
+    /* height: 100vh; */
+    /* border: solid red; */
+}
+
+.overall-container {
+    /* border: solid blue; */
+    height: 100vh;
+    transition: all 0.3 ease-in-out;
 }
