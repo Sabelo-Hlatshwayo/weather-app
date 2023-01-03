@@ -46,17 +46,6 @@ input {
     transition: all 0.3s ease-in-out;
 }
 
-button:hover .search-icon {
-    /* fill: #fff; */
-    /* border: solid red; */
-    /* color: red; */
-    /* fill: red; */
-}
-
-h1 {
-    transition: all 0.3s ease-in-out;
-}
-
 input:focus {
     outline: none;
     box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.25);

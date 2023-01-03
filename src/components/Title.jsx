@@ -13,7 +13,7 @@ function Title() {
     return (
         <h1
             style={themeStyle(theme)}
-            className="capitalize text-black text-3xl font-bold"
+            className="capitalize text-black text-3xl font-bold transition-all"
         >
             the weather app
         </h1>
